@@ -1,6 +1,6 @@
 # log
 
-log package from upspin.
+log package from upspin. ( by the same Golang authors )
 
 ## Usage
 
@@ -31,3 +31,17 @@ log.SetOutput(&lumberjack.Logger{
     MaxAge:     28, //days
 })
 ```
+
+
+## Other packages considered (but not choose it) 
+> (for the record here only, use above one )
+* https://github.com/op/go-logging
+* https://github.com/Sirupsen/logrus
+* https://github.com/hashicorp/logutils
+* https://github.com/golang/glog
+* https://github.com/go-kit/kit/tree/master/log
+* https://github.com/ScottMansfield/nanolog
+* https://github.com/sirupsen/logrus
+* https://github.com/apex/log
+* https://github.com/uber-go/zap
+* https://github.com/juju/loggo
