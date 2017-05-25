@@ -45,3 +45,14 @@ log.SetOutput(&lumberjack.Logger{
 * https://github.com/apex/log
 * https://github.com/uber-go/zap
 * https://github.com/juju/loggo
+
+## Reference article about log
+
+> I believe that there are **only two things you should log**:
+> 
+* Things that developers care about when they are developing or debugging software.
+* Things that users care about when using your software.
+ 
+> Obviously these are debug and info levels, respectively.
+
+https://dave.cheney.net/2015/11/05/lets-talk-about-logging
