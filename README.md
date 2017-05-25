@@ -36,7 +36,6 @@ log.SetOutput(&lumberjack.Logger{
 ## Other packages considered (but not choose it) 
 > (for the record here only, use above one )
 * https://github.com/op/go-logging
-* https://github.com/Sirupsen/logrus
 * https://github.com/hashicorp/logutils
 * https://github.com/golang/glog
 * https://github.com/go-kit/kit/tree/master/log
