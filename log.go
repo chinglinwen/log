@@ -4,7 +4,10 @@
 
 // Package log exports logging primitives that log to stderr and also to Google
 // Cloud Logging.
-package log // import "upspin.io/log"
+package log
+
+// here remove the constraint, but you can import "upspin.io/log" too
+// import "upspin.io/log"
 
 import (
 	"fmt"
