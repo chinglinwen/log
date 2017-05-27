@@ -33,7 +33,7 @@ log.SetOutput(&lumberjack.Logger{
 
 ## Example code to support turn on debug output on the fly
 
-See (support-debug-on-the-fly)[doc/support-debug-on-the-fly.go]
+See [doc/support-debug-on-the-fly](doc/support-debug-on-the-fly.go)
 
 ## Other packages considered (but not choose it) 
 > (for the record here only, use above one )
