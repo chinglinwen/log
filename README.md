@@ -11,11 +11,17 @@ log package from upspin. ( by the same Golang authors )
 > 
 > call **log.SetLevel("debug")** to change level.
 
-## Log
+### Log
 
 ```
 log.Print...
 log.Debug.Print...
+```
+
+### Where info (added a extra function to the original log package)
+
+```
+log.Printf("%v some error info here\n", log.Where())
 ```
 
 ## Log file setting (size, rotate, etc.)
