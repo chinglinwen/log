@@ -18,13 +18,15 @@ log.Print...
 log.Debug.Print...
 ```
 
-### Where info (added a extra function to the original log package)
+### Where info ( added a extra function to the original log package )
+
+Where function usage example:
 
 ```
 log.Printf("%v some error info here\n", log.Where())
 ```
 
-## Log file setting (size, rotate, etc.)
+## Log file setting ( size, rotate, etc. )
 
 See http://github.com/natefinch/lumberjack
 
