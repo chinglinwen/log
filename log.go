@@ -65,7 +65,7 @@ var (
 )
 
 func newDefaultLogger(w io.Writer) Logger {
-	return log.New(w, "", log.Ldate|log.Ltime|log.LUTC|log.Lmicroseconds)
+	return log.New(w, "", log.Ldate|log.Ltime)
 }
 
 // Register connects an ExternalLogger to the default logger. This may only be
