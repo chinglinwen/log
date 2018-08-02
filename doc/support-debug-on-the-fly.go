@@ -8,7 +8,7 @@ import (
         "syscall"
         "time"
 
-        "git.clwen.com/golib/log"
+        "github.com/chinglinwen/log"
 )
 
 func main() {
